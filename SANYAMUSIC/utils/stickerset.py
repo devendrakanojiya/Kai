@@ -1,18 +1,6 @@
-# -----------------------------------------------
-# 🔸 SanyaMusic Project
-# 🔹 Developed & Maintained by: Stark (https://github.com/urstark)
-# 📅 Copyright © 2022 – All Rights Reserved
-#
-# 📖 License:
-# This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
-#
-# ❤️ Made with dedication and love by urstark
-# -----------------------------------------------
 from typing import List
 from pyrogram import Client, errors, raw
+
 
 async def get_sticker_set_by_name(
     client: Client, name: str
@@ -24,8 +12,9 @@ async def get_sticker_set_by_name(
                 hash=0,
             )
         )
-    except errors.exceptions.not_acceptable_406.StickersetInvalid:
+    except errors.StickersetInvalid:
         return None
+
 
 async def create_sticker_set(
     client: Client,
