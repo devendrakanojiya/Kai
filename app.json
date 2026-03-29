@@ -1,7 +1,7 @@
 {
   "name": "Sanya Music",
   "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-  "logo": "https://files.catbox.moe/3sbjl5.jpg",
+  "logo": "https://files.catbox.moe/a4shvc.jpg",
   "keywords": [
     "python3",
     "telegram",
@@ -37,7 +37,7 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7616182203",
+      "value": "6536996337",
       "value": "",
       "required": true
     },
@@ -58,18 +58,18 @@
     },
     "LOGGER_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-      "value": "-1003193802986",
+      "value": "-1003556405442",
       "value": "",
       "required": true
     },
     "SUPPORT_CHANNEL": {
       "description": "Your bot's support channel link (must start with https://)",
-      "value": "https://t.me/urstarkz",
+      "value": "https://t.me/thedivinecult",
       "required": false
     },
     "SUPPORT_CHAT": {
       "description": "Your bot's support group link (must start with https://)",
-      "value": "https://t.me/SanyaXSupport",
+      "value": "https://t.me/thedivinecult",
       "required": false
     },
     "MUST_JOIN": {
