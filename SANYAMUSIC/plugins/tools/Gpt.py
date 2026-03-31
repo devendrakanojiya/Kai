@@ -22,7 +22,7 @@ MODEL = GROQ_MODEL
 MAX_HISTORY_DM = 12
 MAX_HISTORY_GROUP = 12
 MAX_STORAGE_CHATS = 15
-OWNER_LINK = f"tg://user?id={OWNER_ID}" if OWNER_ID else "t.me/CarelessxOwner"
+OWNER_LINK = f"tg://user?id={OWNER_ID}" if OWNER_ID else "t.me/unrealaura"
 
 # --- Cute Sticker Packs ---
 STICKER_PACKS = [
